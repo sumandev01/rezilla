@@ -1,0 +1,682 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/*common css start*/
+	.c1_title{
+		margin: 10px 0 20px;
+		font-size: var(--40);
+		line-height: var(--50);
+	}
+	.c_tag{
+		font-size: 15px;
+	}
+	.c_padding{
+		padding: 50px 0;
+	}
+	/*header css start*/
+	.h_top{
+		text-align: center;
+		display: block !important;
+	}
+	#header_menu ul li a:hover,
+	#header_menu ul li.active a{
+		background: none;
+	}
+	#header_menu ul li a{
+		margin-bottom: 10px;
+		padding-left: 0;
+	}
+	.header_btn .add_listing{
+		margin-top: 20px;
+	}
+	/*login form*/
+	.login,
+	.register{
+		padding: 20px;
+	}
+	/*banner css start*/
+	.banner_section{
+		padding: 50px 0;
+		background-position-y: top;
+		background-size: auto 70%;
+	}
+	.b_title{
+		font-size: var(--40);
+		line-height: var(--58);
+	}
+	#banner_slider_indicators,
+	.bs_indicators{
+	    padding: 0 10px;
+	}
+	.bsb_pre {
+	    left: 10px;
+	}
+	.bsb_next {
+	    right: 10px;
+	}
+	.b_right{
+	    margin: 0;
+	    margin-top: 50px !important;
+	}
+	.bsf_nav_tabs button {
+	    padding: 30px 0 20px 0;
+	}
+	.bsf_nav_content {
+	    padding: 0 20px 40px 20px;
+	}
+	/*Trusted Companies css start*/
+	.tc_top{
+		margin-top: 0;
+		padding-top: 30px;
+		padding-bottom: 0;
+	}
+	.tc_customer {
+	    padding: 20px 20px 20px 40px;
+	}
+	.tc_img {
+	    width: 40px;
+	    height: 40px;
+	}
+	.tc_customer p{
+	    margin-left: 10px;
+	    font-size: var(--16);
+	}
+	.tc_listing{
+		margin-top: 20px;
+	    padding: 15px 20px;
+	}
+	.tcl_img {
+	    width: 50px;
+	    height: 50px;
+	}
+	.tcl_text p {
+	    margin-left: 25px;
+	    font-size: var(--16);
+	}
+	.companies_img{
+		text-align: center;
+	}
+	/*appropriate real estate css start*/
+	.apf_item{
+		padding: 20px;
+	}
+	.apf_text{
+	    padding-left: 15px;
+	}
+	.apf_title{
+	    font-size: var(--16);
+	    padding-bottom: 5px;
+	}
+	.apf_description{
+		font-size: 15px;
+	}
+	.ap_text_circul{
+		display: none;
+	}
+	.ap_img2{
+		margin-top: 20px;
+	}
+	.ap_img3{
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	/*properties css start*/
+	#properties_tab {
+		margin-top: 20px;
+	    justify-content: center;
+	}
+	#properties_tab li button {
+	    margin-right: 10px;
+	    padding: 10px 30px;
+	}
+	/*properties gallary css start*/
+	.pg_img{
+		margin-top: 30px;
+	}
+	/*team member css start*/
+	.t_member{
+		margin-top: 20px;
+	}
+	.tm_title {
+	    padding-bottom: 0;
+	    font-size: 20px;
+	}
+	/*blog & post css start*/
+	.bp_title{
+		font-size: var(--26);
+	}
+	.bp_link{
+	    padding-top: 10px;
+	}
+	/*testimonials css start*/
+	.testimonial_section {
+	    padding-bottom: 80px !important;
+	}
+	.tst_review{
+	    padding: 20px 30px;
+	}
+	.tstr_img1{
+	    width: 30px;
+	}
+	.tstr_description{
+	    padding-bottom: 20px;
+	}
+	/*testimonials css start*/
+	.tst_right{
+		margin-top: 30px;
+		margin-right: 0;
+	}
+	.tst_carousel_indicators {
+	    height: 10%;
+	    width: 100%;
+	    left: 0;
+	    bottom: -30px;
+	    writing-mode: horizontal-tb;
+	}
+	.tst_carousel_indicators button{
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+        width: 50px !important;
+	    transform: rotate(0deg);
+	}
+	/*newsletter css start*/
+	.newsletter{
+		padding-bottom: 0;
+		text-align: center;
+		overflow: hidden;
+	}
+	.n_img{
+	    position: relative;
+	    width: 100%;
+	    left: 0;
+	    bottom: 0;
+	}
+	.n_img img{
+		width: 250px !important;
+	}
+	.n_img_circul {
+	    width: 60px;
+	    height: 60px;
+	    right: 70%;
+	    top: 10px;
+	}
+	.n_text{
+		padding: 0 10px;
+	}
+	.n_text,
+	.n_button{
+		margin-bottom: 30px;
+	}
+	.n_circul_1{
+	    width: 200px;
+	    height: 200px;
+	    top: -100px;
+	    right: -60px;
+	}
+	/*footer top css start*/
+	.ft{
+		text-align: center;
+	}
+	.ft_location {
+		padding: 20px 0;
+	    width: 200px;
+	    margin: 0 auto;
+	}
+	.ft_title{
+		margin-top: 30px;
+	    margin-bottom: 10px;
+	}
+	.ft_mail{
+	    padding-top: 10px;
+	}
+	/*footer css start*/
+	.f_left,
+	.f_right{
+		text-align: center !important;
+	}
+	.f_right{
+		margin-top: 10px;
+	}
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*common css start*/
+	.c1_title{
+		margin: 10px 0 20px;
+		font-size: var(--40);
+		line-height: var(--50);
+	}
+	.c_tag{
+		font-size: 15px;
+	}
+	.c_padding{
+		padding: 50px 0;
+	}
+	/*header css start*/
+	.h_top i{
+		margin-right: 2px;
+		font-size: 12px;
+	}
+	.h_top span{
+		font-size: 12px;
+	}
+	.ht_mail{
+		margin-left: 5px;
+	}
+	#header_menu ul li a:hover,
+	#header_menu ul li.active a{
+		background: none;
+	}
+	#header_menu ul li a{
+		margin-bottom: 10px;
+		padding-left: 0;
+	}
+	/*banner css start*/
+	.banner_section{
+		padding: 50px 0;
+		background-position-y: top;
+		background-size: auto 70%;
+	}
+	.b_title{
+		font-size: var(--50);
+		line-height: var(--58);
+	}
+	.b_right{
+	    margin: 0;
+	    margin-top: 50px !important;
+	}
+	.slider_top_circle{
+	    right: -20px;
+	    top: -35px;
+	}
+	/*Trusted Companies css start*/
+	.tc_top{
+		margin-top: 0;
+		padding-top: 30px;
+		padding-bottom: 0;
+	}
+	.tc_listing{
+		margin-top: 20px;
+	}
+	/*appropriate real estate css start*/
+	.ap_text {
+	    padding-bottom: 80px;
+	}
+	.apf_item{
+		max-width: 100% !important;
+	}
+	/*properties css start*/
+	#properties_tab {
+	    justify-content: center;
+	}
+	/*services css start*/
+	.s_catagory{
+		margin-left: 80px;
+		margin-right: 80px;
+		padding: 80px;
+	}
+	/*properties gallary css start*/
+	.pg_img{
+		margin-top: 30px;
+	}
+	/*team member css start*/
+	.t_member{
+		margin-top: 20px;
+	}
+	/*blog & post css start*/
+	.bp_title{
+		font-size: var(--26);
+	}
+	.bp_link{
+	    padding-top: 10px;
+	}
+	/*testimonials css start*/
+	.testimonial_section {
+	    padding-bottom: 80px !important;
+	}
+	.tst_right{
+		margin-top: 30px;
+		margin-right: 0;
+	}
+	.tst_carousel_indicators {
+	    height: 10%;
+	    width: 100%;
+	    left: 0;
+	    bottom: -30px;
+	    writing-mode: horizontal-tb;
+	}
+	.tst_carousel_indicators button{
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+        width: 50px !important;
+	    transform: rotate(0deg);
+	}
+	/*newsletter css start*/
+	.newsletter{
+		padding-bottom: 0;
+		text-align: center;
+		overflow: hidden;
+	}
+	.n_img{
+	    position: relative;
+	    width: 100%;
+	    left: 0;
+	    bottom: 0;
+	}
+	.n_img img{
+		width: 300px !important;
+	}
+	.n_img_circul{
+	    width: 60px;
+	    height: 60px;
+	    right: 374px;
+	    top: 10px;
+	}
+	.n_text{
+		padding: 0 80px;
+	}
+	.n_text,
+	.n_button{
+		margin-bottom: 30px;
+	}
+	.n_circul_1{
+	    width: 200px;
+	    height: 200px;
+	    top: -100px;
+	    right: -60px;
+	}
+	/*footer top css start*/
+	.ft_newsletter{
+		margin-top: 50px;
+	}
+	/*footer css start*/
+	.f_left,
+	.f_right{
+		text-align: center !important;
+	}
+	.f_right{
+		margin-top: 10px;
+	}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/*common css start*/
+	.c1_title{
+		margin-top: 10px;
+	}
+	.c_padding{
+		padding: 80px 0;
+	}
+	/*header css start*/
+	#header_menu ul li a:hover,
+	#header_menu ul li.active a{
+		background: none;
+	}
+	#header_menu ul li a{
+		margin-bottom: 10px;
+		padding-left: 0;
+	}
+	/*banner css start*/
+	.banner_section{
+		padding: 80px 0;
+		background-position-y: top;
+		background-size: auto 80%;
+	}
+	.b_right{
+	    margin: 0;
+	    margin-top: 50px !important;
+	}
+	/*Trusted Companies css start*/
+	.tc_section{
+		padding-top: 0;
+	}
+	.tc_top{
+		margin-top: 0;
+	}
+	.tc_customer{
+	    padding: 30px 10px 30px 30px;
+	}
+	.tc_listing{
+	    padding: 25px 20px;
+	}
+	/*appropriate real estate css start*/
+	.ap_text {
+	    padding-bottom: 80px;
+	}
+	.apf_item{
+		max-width: 100% !important;
+	}
+	/*properties css start*/
+	#properties_tab {
+	    justify-content: center;
+	}
+	/*services css start*/
+	.s_catagory{
+		margin-top: 20px;
+		padding: 40px 25px;
+	}
+	.sc_icon i{
+		font-size: var(--30);
+		width: 80px;
+		height: 80px;
+	}
+	.sc_title{
+		margin-top: 20px;
+		margin-bottom: 10px;
+		font-size: var(--18);
+	}
+	.sc_description{
+		font-size: 15px;
+	}
+	/*team member css start*/
+	.t_circul{
+	    right: 70px;
+	    top: -110px;
+	}
+	/*blog & post css start*/
+	.bp_img{
+		border-radius: 20px;
+	}
+	.bp_text{
+		padding-right: 0;
+	}
+	.bp_title{
+		margin-top: 10px;
+		margin-bottom: 5px;
+		font-size: var(--20);
+		line-height: var(--26);
+	}
+	.bp_description{
+		font-size: 15px;
+		line-height: var(--20);
+	}
+	.bpd_title{
+		font-size: var(--16);
+	}
+	.bpd_description{
+		font-size: 12px;
+		line-height: 16px;
+	}
+	.bp_link{
+		padding-top: 20px;
+	}
+	/*testimonials css start*/
+	.tst_title{
+		margin-bottom: 20px;
+	}
+	.tst_slider_button{
+	    margin-top: 20px;
+	}
+	.tst_review{
+	    padding: 20px 30px;
+	}
+	.tstr_img1{
+	    width: 30px;
+	}
+	.tstr_description{
+	    padding-bottom: 20px;
+	}
+	/*newsletter css start*/
+	.newsletter{
+	    padding: 40px 0;
+	}
+	.n_img{
+		width: 230px;
+	    left: 0;
+	}
+	.n_img_circul {
+	    top: 90px;
+	}
+	.n_title{
+		margin-bottom: 10px;
+		font-size: var(--30);
+	}
+	.n_reg_button {
+	    padding: 10px 20px;
+	    font-size: 15px;
+	}
+	/*footer top css start*/
+	.ft_location {
+	    padding: 30px 70px 40px 0;
+	}
+	.ft_newsletter{
+		margin-top: 30px;
+	}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/*banner css start*/
+	.b_title{
+		font-size: var(--50);
+	}
+	.b_right{
+	    margin-top: 50px;
+		margin-left: 100px;
+	}
+	/*Trusted Companies css start*/
+	.tc_section{
+		padding-top: 0;
+	}
+	.tc_top{
+		padding-bottom: 100px;
+	}
+	.tc_text p,
+	.tcl_text p{
+		font-size: var(--16);
+	}
+	/*appropriate real estate css start*/
+	.apf_item{
+		padding: 20px;
+	}
+	.ap_title{
+		margin: 10px 0 10px;
+	}
+	.apf_item{
+		margin-top: 15px;
+	}
+	.apf_title{
+		padding-bottom: 5px;
+	}
+	/*properties css start*/
+	.pi_price{
+		font-size: var(--26);
+	}
+	.pi_title{
+		font-size: var(--18);
+	}
+
+	/*services css start*/
+	.s_catagory{
+		margin-top: 20px;
+	}
+	/*blog & post css start*/
+	.bp_text{
+		padding-right: 0;
+	}
+	/*newsletter css start*/
+	.n_img {
+	    left: 0px;
+	}
+	/*footer top css start*/
+	.ft_location {
+	    padding: 30px 0 40px;
+	}
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	/*Trusted Companies css start*/
+	.tc_top{
+		padding-bottom: 100px;
+	}
+	/*properties css start*/
+	.pi_catagory{
+	    padding: 5px 15px;
+	}
+	.pi_catagory i{
+	    font-size: var(--16);
+	}
+	.pi_catagory span{
+		font-size: 15px;
+	}
+	.pi_price{
+		font-size: var(--26);
+	}
+	.pi_title{
+		font-size: var(--16);
+	}
+	.pi_description{
+		font-size: 13px;
+	}
+	/*services css start*/
+	.s_catagory{
+		padding: 75px;
+	}
+	/*properties gallary css start*/
+	.pg_img{
+		margin-top: 50px;
+	}
+	/*properties gallary css start*/
+	.pgt_title{
+		margin-bottom: 10px;
+	}
+	.pg_img{
+		margin-top: 50px;
+	}
+	/*footer top css start*/
+	.ft_location {
+	    padding: 30px 70px 40px 0;
+	}
+}
+
+/*Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+	/*Trusted Companies css start*/
+	.tc_section{
+		padding-top: 0;
+	}
+	.tc_top{
+		padding-bottom: 100px;
+	}
+	/*appropriate real estate css start*/
+	.ap_text{
+		padding-left: 60px;
+	}
+	/*services css start*/
+	.s_catagory{
+		padding: 105px;
+	}
+	/*properties gallary css start*/
+	.pgt_title{
+		margin-bottom: 10px;
+	}
+	.pg_img{
+		margin-top: 50px;
+	}
+	/*footer top css start*/
+	.ft_location {
+	    padding: 30px 100px 40px 0;
+	}
+}

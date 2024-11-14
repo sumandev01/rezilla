@@ -1,0 +1,1659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Rezilla</title>
+	<!-- google fonts -->
+	<link rel="stylesheet" href="fonts/poppins.ttf">
+	<!-- font awesome icon -->
+	<link rel="stylesheet" href="fontawesome/css/all.min.css">
+	<!-- Bootstrap icon -->
+	<link rel="stylesheet" href="css/bootstrap-icons.min.css">
+	<!-- Bootstrap css -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- style css -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- media query css -->
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+	<!-- Header start -->
+	<header class="">
+		<!-- header top start -->		
+		<div class="bg1 header_top">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-5">
+						<div class="ht_left h_top">
+							<a href="https://maps.app.goo.gl/wMqiBQG8CQxzD5177" target="_blank"><i class="fa-solid fa-location-dot"></i></a>
+							<span>Rezilla, 18 Grattan St, Brooklyn</span>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-7">
+						<div class="ht_right text-end">
+							<div class="ht_phn h_top d-inline">
+								<a href="tel:+8801750527181"><i class="fa-solid fa-phone-flip"></i></a>
+								<span>01750-527181</span>
+							</div>
+							<div class="ht_mail h_top d-inline">
+								<a href="mailto:sumondav444@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+								<span>sumondav444@gmail.com</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- header top end -->
+		<!-- header bottom start -->
+		<nav class="navbar navbar-expand-lg header_bottom" id="header_scroll_fixed">
+			<div class="container">
+				<!-- header menu -->
+				<div class="navbar-collapse collapse w-100 order-1 order-lg-0" id="header_menu">
+					<ul class="navbar-nav me-auto">
+						<li class="nav-item active"><a class="nav-link" href="#">home</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">about</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">services</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">blogs</a></li>
+					</ul>
+					<!-- header login/register, add listing button -->
+					<div class="header_btn ms-auto d-lg-none d-block">
+						<button type="button" class="log_re" data-bs-target="#login_register_form" data-bs-toggle="modal">
+							<i class="fa-regular fa-circle-user"></i>
+							<span>login/register</span>
+						</button>
+						<button type="button" class="add_listing" data-bs-target="#add_listing_form" data-bs-toggle="modal">
+							<i class="fa-solid fa-house-circle-check"></i>
+							<span>add listing</span>
+						</button>
+					</div>
+
+				</div>
+				<!-- header logo -->
+				<div class="order-0 header_logo">
+					<a class="navbar-brand mx-auto" href="#">
+						<img src="images/logo.png" class="w-100" alt="Rezilla">
+					</a>
+				</div>
+				<!-- header login/register, add listing button -->
+				<div class="navbar-collapse w-100 order-3 d-lg-block d-none">
+					<div class="header_btn ms-auto">
+						<button type="button" class="log_re" data-bs-target="#login_register_form" data-bs-toggle="modal">
+							<i class="fa-regular fa-circle-user"></i>
+							<span>login/register</span>
+						</button>
+						<button type="button" class="add_listing" data-bs-target="#add_listing_form" data-bs-toggle="modal">
+							<i class="fa-solid fa-house-circle-check"></i>
+							<span>add listing</span>
+						</button>
+					</div>
+				</div>
+				<!-- toggler menu button -->
+				<button class="navbar-toggler header_menu_toggler" type="button" data-bs-toggle="collapse" data-bs-target="#header_menu" aria-controls="header_menu" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+			</div>
+		</nav>
+		<!-- header bottom end -->
+		<!-- login form -->
+		<div class="modal fade" id="login_register_form" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content login">
+					<div class="popup_close text-end">
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="login_form">
+						<h2 class="c2_title text-center">Login</h2>
+						<form class="row g-3 needs-validation" method="post" action="#" novalidate>
+							<div class="col-lg-12">
+								<label for="user_name" class="form-label">User Name</label>
+								<input type="text" class="form-control log_reg_input" id="user_name" autocomplete="off" required>
+								<div class="valid-feedback">Looks good!</div>
+								<div class="invalid-feedback">Please Enter Your User Name</div>
+							</div>
+							<div class="col-lg-12">
+								<label for="login_password" class="form-label">Password</label>
+								<input type="text" class="form-control log_reg_input" id="login_password" autocomplete="off" required>
+								<div class="valid-feedback">Looks good!</div>
+								<div class="invalid-feedback">Please Enter Your Password</div>
+							</div>
+							<div class="col-12">
+								<button class="btn w-100" type="submit">Login</button>
+							</div>
+						</form>
+						<div class="reg_link text-center">
+							<span>Forget your password?</span>
+							<a type="button" href="#">reset now</a>
+						</div>
+						<div class="reg_link text-center">
+							<span>Don't have an account?</span>
+							<a type="button" href="#" data-bs-target="#register_form" data-bs-toggle="modal">register now</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- register form -->
+		<div class="modal fade" id="register_form" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered">
+			    <div class="modal-content register">
+			    	<div class="popup_close text-end">
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>   
+					<div class="login_form">
+						<h2 class="c2_title text-center">register</h2>			
+						<form class="row g-3 needs-validation" novalidate>
+							<div class="col-lg-12">
+								<label for="f_name" class="form-label">First Name</label>
+								<input type="text" class="form-control log_reg_input" id="f_name" autocomplete="off" required>
+								<div class="valid-feedback">Looks good!</div>
+								<div class="invalid-feedback">Please Enter Your User Name</div>
+							</div>
+							<div class="col-lg-12">
+								<label for="l_name" class="form-label">Last Name</label>
+								<input type="text" class="form-control log_reg_input" id="l_name" autocomplete="off">
+							</div>
+							<div class="col-lg-12">
+								<label for="email_address" class="form-label">Email Address</label>
+								<input type="email" class="form-control log_reg_input" id="email_address" autocomplete="off" required>
+								<div class="valid-feedback">Looks good!</div>
+								<div class="invalid-feedback">Please Enter Your Valid Email Address</div>
+							</div>
+							<div class="col-lg-12">
+								<label for="register_password" class="form-label">Password</label>
+								<input type="text" class="form-control log_reg_input" id="register_password" autocomplete="off" required>
+								<div class="valid-feedback">Looks good!</div>
+								<div class="invalid-feedback">Please Enter Your Password</div>
+							</div>
+							<div class="col-12">
+								<div class="form-check">
+									<input class="form-check-input" type="checkbox" value="" id="terms_con" required>
+									<label class="form-check-label" for="terms_con">Agree to <a href="#" class="terms_con_link" target="_blank">terms and conditions</a></label>
+									<div class="invalid-feedback">You must agree before submitting.</div>
+								</div>
+							</div>
+							<div class="col-12">
+								<button class="btn btn-primary w-100" type="submit">Register</button>
+							</div>
+						</form>
+						<div class="reg_link text-center">
+							<span>Already have an account?</span>
+							<a type="button" href="#" data-bs-target="#login_register_form" data-bs-toggle="modal">log in</a>
+						</div>
+					</div>
+			    </div>
+			</div>
+		</div>
+		<!-- add listing property -->
+		<div class="modal fade" id="add_listing_form" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h1 class="modal-title fs-5" id="exampleModalToggleLabel">Modal 1</h1>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">Show a second modal and hide this one with the button below.</div>
+					<div class="modal-footer">
+						<span>footer</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>	
+	<!-- Header end -->
+	<!-- Banner start -->
+	<section class="banner_section">
+		<div class="container">
+			<div class="row align-items-end">
+				<div class="col-lg-6">
+					<div class="b_left">
+						<p class="c_tag">REAL ESTATE</p>
+						<h1 class="c1_title b_title">Find a perfect home you love..!</h1>
+						<p class="b_description">Etiam eget elementum elit. Aenean dignissim dapibus vestibulum. Integer a dolor eu sapien sodales vulputate ac in purus.</p>
+						<!-- slider start -->
+						<div id="banner_slider_indicators" class="carousel slide" data-bs-ride="carousel">
+							<!-- slider indicators -->
+							<div class="carousel-indicators bs_indicators justify-content-between">
+								<button type="button" data-bs-target="#banner_slider_indicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+								<button type="button" data-bs-target="#banner_slider_indicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+								<button type="button" data-bs-target="#banner_slider_indicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+								<button type="button" data-bs-target="#banner_slider_indicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+							</div>
+							<!-- slider inner -->
+							<div class="carousel-inner bs_inner">
+								<!-- item start-->
+								<div class="carousel-item slider_item active">
+									<img src="images/slider-1.jpg" class="d-block w-100" alt="...">
+								</div>
+								<!-- item end-->
+								<!-- item start-->
+								<div class="carousel-item slider_item">
+									<img src="images/slider-2.jpg" class="d-block w-100" alt="...">
+								</div>
+								<!-- item end-->
+								<!-- item start-->
+								<div class="carousel-item slider_item">
+									<img src="images/slider-3.jpg" class="d-block w-100" alt="...">
+								</div>
+								<!-- item end-->
+								<!-- item start-->
+								<div class="carousel-item slider_item">
+									<img src="images/slider-4.jpg" class="d-block w-100" alt="...">
+								</div>
+								<!-- item end-->
+							</div>
+							<!-- silder button next prev -->
+							<button class="banner_slider_button bsb_pre" type="button" data-bs-target="#banner_slider_indicators" data-bs-slide="prev">
+								<i class="fa-solid fa-angle-left"></i>
+							</button>
+							<button class="banner_slider_button bsb_next" type="button" data-bs-target="#banner_slider_indicators" data-bs-slide="next">
+								<i class="fa-solid fa-angle-right"></i>
+							</button>
+							<!-- slider top circle -->
+							<span class="slider_top_circle d-sm-block d-none"></span>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="b_right">
+						<div class="b_search_form">							
+							<nav>
+								<div class="nav nav-tabs justify-content-around bsf_nav_tabs" id="nav-tab" role="tablist">
+
+									<button class="nav-link active" id="nav-sale-tab" data-bs-toggle="tab" data-bs-target="#nav-sale" type="button" role="tab" aria-controls="nav-sale" aria-selected="true">for sale</button>
+									<button class="nav-link" id="nav-rent-tab" data-bs-toggle="tab" data-bs-target="#nav-rent" type="button" role="tab" aria-controls="nav-rent" aria-selected="false">for rent</button>
+								</div>
+							</nav>
+							<div class="tab-content bsf_nav_content">
+								<div class="tab-pane fade show active" id="nav-sale" role="tabpanel" aria-labelledby="nav-sale-tab">	
+									<form class="row needs-validation bs_form" novalidate>
+										<div class="col-lg-12">
+											<input type="text" class="form-control log_reg_input" autocomplete="off" placeholder="New York, San Francisco, etc" required>
+										</div>
+										<div class="col-lg-12">
+											<select class="form-select" required>
+												<option selected disabled value>Select Property Type</option>
+												<option value="1">Real Property</option>
+												<option value="2">Commercial property</option>
+												<option value="3">Retail</option>
+												<option value="4">Office</option>
+											</select>
+										</div>
+										<div class="col-lg-12">
+											<select class="form-select" required>
+												<option selected disabled value>Select Rooms</option>
+												<option value="1">1</option>
+												<option value="2">2</option>
+												<option value="3">3</option>
+												<option value="4">4</option>
+											</select>
+										</div>
+										<div class="col-lg-12">
+											<div class="advance_search">
+												<div class="d-inline-flex gap-1">
+													<p type="button" data-bs-toggle="collapse" data-bs-target="#ad_search_sale" aria-expanded="false" aria-controls="ad_search_sale">
+														<i class="fa-solid fa-sliders fa-rotate-90"></i>
+														<span>Advance Search</span>
+													</p>
+												</div>
+												<div class="collapse" id="ad_search_sale">
+													<span>advance features comming soon</span>
+												</div>
+											</div>
+										</div>
+										<div class="col-12">
+											<button class="btn w-100" type="submit">search</button>
+										</div>
+									</form>
+								</div>
+								<div class="tab-pane fade" id="nav-rent" role="tabpanel" aria-labelledby="nav-rent-tab">
+									<form class="row needs-validation bs_form" novalidate>
+										<div class="col-lg-12">
+											<input type="text" class="form-control log_reg_input" autocomplete="off" placeholder="New York, San Francisco, etc" required>
+										</div>
+										<div class="col-lg-12">
+											<select class="form-select" required>
+												<option selected disabled value>Select Property Type</option>
+												<option value="1">Real Property</option>
+												<option value="2">Commercial property</option>
+												<option value="3">Retail</option>
+												<option value="4">Office</option>
+											</select>
+										</div>
+										<div class="col-lg-12">
+											<select class="form-select" required>
+												<option selected disabled value>Select Rooms</option>
+												<option value="1">1</option>
+												<option value="2">2</option>
+												<option value="3">3</option>
+												<option value="4">4</option>
+											</select>
+										</div>
+										<div class="col-lg-12">
+											<div class="advance_search">
+												<div class="d-inline-flex gap-1">
+													<p type="button" data-bs-toggle="collapse" data-bs-target="#ad_search_rent" aria-expanded="false" aria-controls="ad_search_rent">
+														<i class="fa-solid fa-sliders fa-rotate-90"></i>
+														<span>Advance Search</span>
+													</p>
+												</div>
+												<div class="collapse" id="ad_search_rent">
+													<span>advance features comming soon</span>
+												</div>
+											</div>
+										</div>
+										<div class="col-12">
+											<button class="btn w-100" type="submit">search</button>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Banner end -->
+	<!-- Trusted Companies start -->
+	<section class="c_padding tc_section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 order-md-1 order-2">
+					<div class="row justify-content-center">
+						<div class="col-xxl-8 col-lg-10">
+							<div class="tc_top">
+								<div class="row">
+									<div class="col-md-6">
+										<div class="tc_customer d-flex align-items-center">
+											<div class="d-flex">
+												<div class="tc_img">
+													<img src="images/p1.jpg" class="w-100" alt="Rezilla">
+													<a href="#"><i class="fa-solid fa-plus"></i></a>
+												</div>
+												<div class="tc_img">
+													<img src="images/p2.jpg" class="w-100" alt="Rezilla">
+													<a href="#"><i class="fa-solid fa-plus"></i></a>
+												</div>
+												<div class="tc_img">
+													<img src="images/p3.jpg" class="w-100" alt="Rezilla">
+													<a href="#"><i class="fa-solid fa-plus"></i></a>
+												</div>
+												<div class="tc_img">
+													<img src="images/p4.jpg" class="w-100" alt="Rezilla">
+													<a href="#"><i class="fa-solid fa-plus"></i></a>
+												</div>
+												<div class="tc_img">
+													<img src="images/p5.jpg" class="w-100" alt="Rezilla">
+													<a href="#"><i class="fa-solid fa-plus"></i></a>
+												</div>
+											</div>
+											<div class="tc_text">
+												<p>72k+ Happy Customers</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="tc_listing d-flex align-items-center justify-content-between">
+											<div>
+												<div class="tcl_img">
+													<img src="images/listing.jpg" class="w-100" alt="Rezilla">
+												</div>
+											</div>
+											<div class="tcl_text">
+												<p>200+ New <span>Listings Everyday!</span></p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-12 order-md-2 order-1">
+					<!-- companies logo -->
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="companies text-center position-relative">
+								<h1 class="c_description">Trusted by 100+ Companies across the globe!</h1>
+								<span class="companies_circule position-absolute d-lg-block d-none"></span>
+							</div>
+						</div>
+						<div class="col-lg-2 col-sm-4 col-6">
+							<div class="companies_img">
+								<img src="images/image1.png" alt="Rezilla">
+							</div>
+						</div>
+						<div class="col-lg-2 col-sm-4 col-6">
+							<div class="companies_img">
+								<img src="images/image2.png" alt="Rezilla">
+							</div>
+						</div>
+						<div class="col-lg-2 col-sm-4 col-6">
+							<div class="companies_img">
+								<img src="images/image3.png" alt="Rezilla">
+							</div>
+						</div>
+						<div class="col-lg-2 col-sm-4 col-6">
+							<div class="companies_img">
+								<img src="images/image4.png" alt="Rezilla">
+							</div>
+						</div>
+						<div class="col-lg-2 col-sm-4 col-6">
+							<div class="companies_img">
+								<img src="images/image5.png" alt="Rezilla">
+							</div>
+						</div>
+						<div class="col-lg-2 col-sm-4 col-6">
+							<div class="companies_img">
+								<img src="images/image6.png" alt="Rezilla">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Trusted Companies end -->
+	<!-- appropriate real estate start -->
+	<section class="appropritate_section c_padding">
+		<div class="container">
+			<div class="row align-items-end">
+				<div class="col-lg-6 order-1">
+					<div class="ap_text">
+						<p class="c_tag">WHO ARE WE</p>
+						<h1 class="c1_title ap_title">Assisting individuals in locating the appropriate real estate.</h1>
+						<p class="c_description ap_description">Donec porttitor euismod dignissim. Nullam a lacinia ipsum, nec dignissim purus. Nulla convallis ipsum molestie nibh malesuada, ac malesuada leo volutpat.</p>
+						<!-- appropriate real estate feature -->
+						<div class="ap_feature d-lg-block d-none">
+							<div class="apf_item d-flex align-items-center">
+								<div class="apf_icon">
+									<i class="fa-solid fa-house-signal"></i>
+								</div>
+								<div class="apf_text">
+									<h2 class="c2_title apf_title">Donec porttitor euismod</h2>
+									<p class="c_description apf_description">Nullam a lacinia ipsum, nec dignissim purus. Nulla</p>
+								</div>
+							</div>
+							<div class="apf_item d-flex align-items-center">
+								<div class="apf_icon">
+									<i class="fa-regular fa-circle-user"></i>
+								</div>
+								<div class="apf_text">
+									<h2 class="c2_title apf_title">Donec porttitor euismod</h2>
+									<p class="c_description apf_description">Nullam a lacinia ipsum, nec dignissim purus. Nulla</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6 order-sm-1 order-3 position-relative">
+					<div class="ap_img1 ap_img">
+						<img src="images/ap1.jpg" class="w-100" alt="Rezilla">
+					</div>
+					<div class="ap_text_circul">
+						<img src="images/Group.png" class="w-100" alt="Rezilla">
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6 order-sm-2 order-2 position-relative">
+					<div class="ap_img2 ap_img">
+						<img src="images/ap2.jpg" class="w-100" alt="Rezilla">
+					</div>
+					<div class="ap_img3 ap_img">
+						<img src="images/ap3.jpg" class="w-100" alt="Rezilla">
+					</div>
+					<span class="ap_img3_circule position-absolute d-sm-block d-none"></span>
+				</div>
+				<div class="col-lg-12 d-lg-none d-block order-4">
+					<!-- appropriate real estate feature -->
+					<div class="apf_item d-flex align-items-center">
+						<div class="apf_icon">
+							<i class="fa-solid fa-house-signal"></i>
+						</div>
+						<div class="apf_text">
+							<h2 class="c2_title apf_title">Donec porttitor euismod</h2>
+							<p class="c_description apf_description">Nullam a lacinia ipsum, nec dignissim purus. Nulla</p>
+						</div>
+					</div>
+					<div class="apf_item d-flex align-items-center">
+						<div class="apf_icon">
+							<i class="fa-regular fa-circle-user"></i>
+						</div>
+						<div class="apf_text">
+							<h2 class="c2_title apf_title">Donec porttitor euismod</h2>
+							<p class="c_description apf_description">Nullam a lacinia ipsum, nec dignissim purus. Nulla</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- appropriate real estate start -->
+	<!-- properties list start -->
+	<section class="properties_section c_padding">
+		<div class="container">
+			<!-- 1st row -->
+			<div class="row align-items-center">
+				<div class="col-lg-6">
+					<div class="ptop_text">
+						<p class="c_tag">CHECKOUT OUR NEW</p>
+						<h1 class="c1_title">Latest Listed Properties</h1>
+						<p class="c_description">Donec porttitor euismod dignissim. Nullam a lacinia ipsum, nec dignissim purus.</p>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="ptop_menu">						
+						<ul class="nav nav-pills mb-0" id="properties_tab" role="tablist">
+							<li class="nav-item" role="presentation">
+								<button class="nav-link active" id="properties_all_tab" data-bs-toggle="pill" data-bs-target="#properties_all" type="button" role="tab" aria-controls="properties_all" aria-selected="true">all</button>
+							</li>
+							<li class="nav-item" role="presentation">
+								<button class="nav-link" id="properties_sell_tab" data-bs-toggle="pill" data-bs-target="#properties_sell" type="button" role="tab" aria-controls="properties_sell" aria-selected="false">sell</button>
+							</li>
+							<li class="nav-item" role="presentation">
+								<button class="nav-link" id="properties_rent_tab" data-bs-toggle="pill" data-bs-target="#properties_rent" type="button" role="tab" aria-controls="properties_rent" aria-selected="false">rent</button>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- 2nd row -->
+			<div class="row">
+				<!-- all tab content start -->
+				<div class="col-lg-12">
+					<div class="tab-content properties_content">
+					  	<div class="tab-pane fade show active" id="properties_all" role="tabpanel" aria-labelledby="properties_all_tab" tabindex="0">
+						  	<div class="row">
+						  		<!-- item -->
+						  		<div class="col-xl-3 col-md-6">
+						  			<div class="p_item">
+						  				<div class="pi_header position-relative">
+						  					<div class="pi_img position-relative">
+						  						<img src="images/gallery1.jpg" class="w-100" alt="Rezilla">
+						  					</div>
+						  					<div class="pi_catagory pi_popular position-absolute">
+					  							<i class="fa-solid fa-fire"></i>
+					  							<span>Popular</span>
+					  						</div>
+						  				</div>
+						  				<div class="pi_body">
+						  					<p class="c2_title pi_price">$ 5,970</p>
+							  				<h2 class="c2_title pi_title">Tranquil Haven in the Woods</h2>
+							  				<p class="c_description pi_description">103 Wright CourtBurien, WA 98168</p>
+						  				</div>
+						  				<div class="pi_footer">
+						  					<div class="pif_left">
+						  						<i class="fa-solid fa-bed"></i>
+						  						<span>4 Beds</span>
+						  					</div>
+						  					<div class="pif_right">
+						  						<i class="fa-solid fa-bath"></i>
+						  						<span>3 Bath</span>
+						  					</div>
+						  				</div>
+						  			</div>
+						  		</div>
+						  		<!-- item -->
+						  		<div class="col-xl-3 col-md-6">
+						  			<div class="p_item">
+						  				<div class="pi_header position-relative">
+						  					<div class="pi_img position-relative">
+						  						<img src="images/gallery2.jpg" class="w-100" alt="Rezilla">
+						  					</div>
+						  					<div class="pi_catagory pi_new position-absolute">
+					  							<i class="fa-solid fa-house"></i>
+					  							<span>New Listing</span>
+					  						</div>
+						  				</div>
+						  				<div class="pi_body">
+						  					<p class="c2_title pi_price">$ 1,975</p>
+							  				<h2 class="c2_title pi_title">Serene Retreat by the Lake</h2>
+							  				<p class="c_description pi_description">1964 Jehovah Drive, VA 22408</p>
+						  				</div>
+						  				<div class="pi_footer">
+						  					<div class="pif_left">
+						  						<i class="fa-solid fa-bed"></i>
+						  						<span>3 Beds</span>
+						  					</div>
+						  					<div class="pif_right">
+						  						<i class="fa-solid fa-bath"></i>
+						  						<span>2 Bath</span>
+						  					</div>
+						  				</div>
+						  			</div>
+						  		</div>
+						  		<!-- item -->
+						  		<div class="col-xl-3 col-md-6">
+						  			<div class="p_item">
+						  				<div class="pi_header position-relative">
+						  					<div class="pi_img position-relative">
+						  						<img src="images/gallery3.jpg" class="w-100" alt="Rezilla">
+						  					</div>
+						  					<div class="pi_catagory pi_discount position-absolute">
+					  							<i class="fa-solid fa-dollar-sign"></i>
+					  							<span>Discounted Price</span>
+					  						</div>
+						  				</div>
+						  				<div class="pi_body">
+						  					<p class="c2_title pi_price">$ 3,450</p>
+							  				<h2 class="c2_title pi_title">Charming Cottage in the Meadow</h2>
+							  				<p class="c_description pi_description">1508 Centennial Farm RoadHarlan, 51537</p>
+						  				</div>
+						  				<div class="pi_footer">
+						  					<div class="pif_left">
+						  						<i class="fa-solid fa-bed"></i>
+						  						<span>4 Beds</span>
+						  					</div>
+						  					<div class="pif_right">
+						  						<i class="fa-solid fa-bath"></i>
+						  						<span>4 Bath</span>
+						  					</div>
+						  				</div>
+						  			</div>
+						  		</div>
+						  		<!-- item -->
+						  		<div class="col-xl-3 col-md-6">
+						  			<div class="p_item">
+						  				<div class="pi_header position-relative">
+						  					<div class="pi_img position-relative">
+						  						<img src="images/gallery4.jpg" class="w-100" alt="Rezilla">
+						  					</div>
+						  					<div class="pi_catagory pi_popular position-absolute">
+					  							<i class="fa-solid fa-fire"></i>
+					  							<span>Popular</span>
+					  						</div>
+						  				</div>
+						  				<div class="pi_body">
+						  					<p class="c2_title pi_price">$ 2,390</p>
+							  				<h2 class="c2_title pi_title">Grand Estate on the Hilltop</h2>
+							  				<p class="c_description pi_description">103 Wright CourtBurien, WA 98168</p>
+						  				</div>
+						  				<div class="pi_footer">
+						  					<div class="pif_left">
+						  						<i class="fa-solid fa-bed"></i>
+						  						<span>4 Beds</span>
+						  					</div>
+						  					<div class="pif_right">
+						  						<i class="fa-solid fa-bath"></i>
+						  						<span>3 Bath</span>
+						  					</div>
+						  				</div>
+						  			</div>
+						  		</div>
+						  	</div>
+					  	</div>
+					</div>
+				</div>
+				<!-- all tab content end -->
+				<!-- sell tab content start -->
+				<div class="col-lg-12">
+					<div class="tab-content properties_content">
+					  	<div class="tab-pane fade" id="properties_sell" role="tabpanel" aria-labelledby="properties_sell_tab" tabindex="0">
+					  		<div class="row">
+						  		<!-- item -->
+						  		<div class="col-xl-3 col-md-6">
+						  			<div class="p_item">
+						  				<div class="pi_header position-relative">
+						  					<div class="pi_img position-relative">
+						  						<img src="images/gallery1.jpg" class="w-100" alt="Rezilla">
+						  					</div>
+						  					<div class="pi_catagory pi_popular position-absolute">
+					  							<i class="fa-solid fa-fire"></i>
+					  							<span>Popular</span>
+					  						</div>
+						  				</div>
+						  				<div class="pi_body">
+						  					<p class="c2_title pi_price">$ 5,970</p>
+							  				<h2 class="c2_title pi_title">Tranquil Haven in the Woods</h2>
+							  				<p class="c_description pi_description">103 Wright CourtBurien, WA 98168</p>
+						  				</div>
+						  				<div class="pi_footer">
+						  					<div class="pif_left">
+						  						<i class="fa-solid fa-bed"></i>
+						  						<span>4 Beds</span>
+						  					</div>
+						  					<div class="pif_right">
+						  						<i class="fa-solid fa-bath"></i>
+						  						<span>3 Bath</span>
+						  					</div>
+						  				</div>
+						  			</div>
+						  		</div>
+						  		<!-- item -->
+						  		<div class="col-xl-3 col-md-6">
+						  			<div class="p_item">
+						  				<div class="pi_header position-relative">
+						  					<div class="pi_img position-relative">
+						  						<img src="images/gallery2.jpg" class="w-100" alt="Rezilla">
+						  					</div>
+						  					<div class="pi_catagory pi_new position-absolute">
+					  							<i class="fa-solid fa-house"></i>
+					  							<span>New Listing</span>
+					  						</div>
+						  				</div>
+						  				<div class="pi_body">
+						  					<p class="c2_title pi_price">$ 1,975</p>
+							  				<h2 class="c2_title pi_title">Serene Retreat by the Lake</h2>
+							  				<p class="c_description pi_description">1964 Jehovah Drive, VA 22408</p>
+						  				</div>
+						  				<div class="pi_footer">
+						  					<div class="pif_left">
+						  						<i class="fa-solid fa-bed"></i>
+						  						<span>3 Beds</span>
+						  					</div>
+						  					<div class="pif_right">
+						  						<i class="fa-solid fa-bath"></i>
+						  						<span>2 Bath</span>
+						  					</div>
+						  				</div>
+						  			</div>
+						  		</div>
+						  		<!-- item -->
+						  		<div class="col-xl-3 col-md-6">
+						  			<div class="p_item">
+						  				<div class="pi_header position-relative">
+						  					<div class="pi_img position-relative">
+						  						<img src="images/gallery3.jpg" class="w-100" alt="Rezilla">
+						  					</div>
+						  					<div class="pi_catagory pi_discount position-absolute">
+					  							<i class="fa-solid fa-dollar-sign"></i>
+					  							<span>Discounted Price</span>
+					  						</div>
+						  				</div>
+						  				<div class="pi_body">
+						  					<p class="c2_title pi_price">$ 3,450</p>
+							  				<h2 class="c2_title pi_title">Charming Cottage in the Meadow</h2>
+							  				<p class="c_description pi_description">1508 Centennial Farm RoadHarlan, 51537</p>
+						  				</div>
+						  				<div class="pi_footer">
+						  					<div class="pif_left">
+						  						<i class="fa-solid fa-bed"></i>
+						  						<span>4 Beds</span>
+						  					</div>
+						  					<div class="pif_right">
+						  						<i class="fa-solid fa-bath"></i>
+						  						<span>4 Bath</span>
+						  					</div>
+						  				</div>
+						  			</div>
+						  		</div>
+						  		<!-- item -->
+						  		<div class="col-xl-3 col-md-6">
+						  			<div class="p_item">
+						  				<div class="pi_header position-relative">
+						  					<div class="pi_img position-relative">
+						  						<img src="images/gallery4.jpg" class="w-100" alt="Rezilla">
+						  					</div>
+						  					<div class="pi_catagory pi_popular position-absolute">
+					  							<i class="fa-solid fa-fire"></i>
+					  							<span>Popular</span>
+					  						</div>
+						  				</div>
+						  				<div class="pi_body">
+						  					<p class="c2_title pi_price">$ 2,390</p>
+							  				<h2 class="c2_title pi_title">Grand Estate on the Hilltop</h2>
+							  				<p class="c_description pi_description">103 Wright CourtBurien, WA 98168</p>
+						  				</div>
+						  				<div class="pi_footer">
+						  					<div class="pif_left">
+						  						<i class="fa-solid fa-bed"></i>
+						  						<span>4 Beds</span>
+						  					</div>
+						  					<div class="pif_right">
+						  						<i class="fa-solid fa-bath"></i>
+						  						<span>3 Bath</span>
+						  					</div>
+						  				</div>
+						  			</div>
+						  		</div>
+						  	</div>
+					  	</div>
+					</div>
+				</div>
+				<!-- sell tab content end -->
+				<!-- rent tab content start -->
+				<div class="col-lg-12">
+					<div class="tab-content properties_content">
+					 	<div class="tab-pane fade" id="properties_rent" role="tabpanel" aria-labelledby="properties_rent_tab" tabindex="0">
+					 		<div class="row">
+					 			<!-- item -->
+						  		<div class="col-xl-3 col-md-6">
+						  			<div class="p_item">
+						  				<div class="pi_header position-relative">
+						  					<div class="pi_img position-relative">
+						  						<img src="images/gallery2.jpg" class="w-100" alt="Rezilla">
+						  					</div>
+						  					<div class="pi_catagory pi_new position-absolute">
+					  							<i class="fa-solid fa-house"></i>
+					  							<span>New Listing</span>
+					  						</div>
+						  				</div>
+						  				<div class="pi_body">
+						  					<p class="c2_title pi_price">$ 1,975</p>
+							  				<h2 class="c2_title pi_title">Serene Retreat by the Lake</h2>
+							  				<p class="c_description pi_description">1964 Jehovah Drive, VA 22408</p>
+						  				</div>
+						  				<div class="pi_footer">
+						  					<div class="pif_left">
+						  						<i class="fa-solid fa-bed"></i>
+						  						<span>3 Beds</span>
+						  					</div>
+						  					<div class="pif_right">
+						  						<i class="fa-solid fa-bath"></i>
+						  						<span>2 Bath</span>
+						  					</div>
+						  				</div>
+						  			</div>
+						  		</div>
+						  		<!-- item -->
+						  		<div class="col-xl-3 col-md-6">
+						  			<div class="p_item">
+						  				<div class="pi_header position-relative">
+						  					<div class="pi_img position-relative">
+						  						<img src="images/gallery1.jpg" class="w-100" alt="Rezilla">
+						  					</div>
+						  					<div class="pi_catagory pi_popular position-absolute">
+					  							<i class="fa-solid fa-fire"></i>
+					  							<span>Popular</span>
+					  						</div>
+						  				</div>
+						  				<div class="pi_body">
+						  					<p class="c2_title pi_price">$ 5,970</p>
+							  				<h2 class="c2_title pi_title">Tranquil Haven in the Woods</h2>
+							  				<p class="c_description pi_description">103 Wright CourtBurien, WA 98168</p>
+						  				</div>
+						  				<div class="pi_footer">
+						  					<div class="pif_left">
+						  						<i class="fa-solid fa-bed"></i>
+						  						<span>4 Beds</span>
+						  					</div>
+						  					<div class="pif_right">
+						  						<i class="fa-solid fa-bath"></i>
+						  						<span>3 Bath</span>
+						  					</div>
+						  				</div>
+						  			</div>
+						  		</div>
+						  		<!-- item -->
+						  		<div class="col-xl-3 col-md-6">
+						  			<div class="p_item">
+						  				<div class="pi_header position-relative">
+						  					<div class="pi_img position-relative">
+						  						<img src="images/gallery4.jpg" class="w-100" alt="Rezilla">
+						  					</div>
+						  					<div class="pi_catagory pi_popular position-absolute">
+					  							<i class="fa-solid fa-fire"></i>
+					  							<span>Popular</span>
+					  						</div>
+						  				</div>
+						  				<div class="pi_body">
+						  					<p class="c2_title pi_price">$ 2,390</p>
+							  				<h2 class="c2_title pi_title">Grand Estate on the Hilltop</h2>
+							  				<p class="c_description pi_description">103 Wright CourtBurien, WA 98168</p>
+						  				</div>
+						  				<div class="pi_footer">
+						  					<div class="pif_left">
+						  						<i class="fa-solid fa-bed"></i>
+						  						<span>4 Beds</span>
+						  					</div>
+						  					<div class="pif_right">
+						  						<i class="fa-solid fa-bath"></i>
+						  						<span>3 Bath</span>
+						  					</div>
+						  				</div>
+						  			</div>
+						  		</div>
+						  		<!-- item -->
+						  		<div class="col-xl-3 col-md-6">
+						  			<div class="p_item">
+						  				<div class="pi_header position-relative">
+						  					<div class="pi_img position-relative">
+						  						<img src="images/gallery3.jpg" class="w-100" alt="Rezilla">
+						  					</div>
+						  					<div class="pi_catagory pi_discount position-absolute">
+					  							<i class="fa-solid fa-dollar-sign"></i>
+					  							<span>Discounted Price</span>
+					  						</div>
+						  				</div>
+						  				<div class="pi_body">
+						  					<p class="c2_title pi_price">$ 3,450</p>
+							  				<h2 class="c2_title pi_title">Charming Cottage in the Meadow</h2>
+							  				<p class="c_description pi_description">1508 Centennial Farm RoadHarlan, 51537</p>
+						  				</div>
+						  				<div class="pi_footer">
+						  					<div class="pif_left">
+						  						<i class="fa-solid fa-bed"></i>
+						  						<span>4 Beds</span>
+						  					</div>
+						  					<div class="pif_right">
+						  						<i class="fa-solid fa-bath"></i>
+						  						<span>4 Bath</span>
+						  					</div>
+						  				</div>
+						  			</div>
+						  		</div>
+						  	</div>
+					 	</div>
+					</div>
+				</div>
+				<!-- rent tab content end -->
+				<!-- view more properties -->
+				<div class="col-lg-12">
+					<div class="properties_more_button text-end">
+						<a href="#">View More properties</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- properties list end -->
+	<!-- services start -->
+	<section class="services_section c_padding bg2">
+		<div class="container">
+			<!-- 1st row -->
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="s_text text-center">
+						<p class="c_tag s_tag">OUR SERVICES</p>
+						<h1 class="c1_title s_title">Donec porttitor euismod dignissim</h1>
+					</div>
+				</div>
+			</div>
+			<!-- 2nd row -->
+			<div class="row gx-xl-5">
+				<!-- service catagory start-->
+				<div class="col-md-4">
+					<div class="s_catagory text-center">
+						<div class="sc_icon">
+							<i class="fa-solid fa-magnifying-glass"></i>
+						</div>
+						<div class="sc_text">
+							<h2 class="c2_title sc_title">Buy a New Home</h2>
+							<p class="c_description sc_description">Donec porttitor euismod dignissim. Nullam a lacinia ipsum, nec dignissim purus.</p>
+						</div>
+					</div>
+				</div>
+				<!-- service catagory end-->
+				<!-- service catagory start-->
+				<div class="col-md-4">
+					<div class="s_catagory text-center">
+						<div class="sc_icon">
+							<i class="fa-solid fa-house"></i>
+						</div>
+						<div class="sc_text">
+							<h2 class="c2_title sc_title">Sell a House</h2>
+							<p class="c_description sc_description">Donec porttitor euismod dignissim. Nullam a lacinia ipsum, nec dignissim purus.</p>
+						</div>
+					</div>
+				</div>
+				<!-- service catagory end-->
+				<!-- service catagory start-->
+				<div class="col-md-4">
+					<div class="s_catagory text-center">
+						<div class="sc_icon">
+							<i class="fa-solid fa-bed"></i>
+						</div>
+						<div class="sc_text">
+							<h2 class="c2_title sc_title">Rent a House</h2>
+							<p class="c_description sc_description">Donec porttitor euismod dignissim. Nullam a lacinia ipsum, nec dignissim purus.</p>
+						</div>
+					</div>
+				</div>
+				<!-- service catagory end-->
+			</div>
+		</div>
+	</section>
+	<!-- services end -->
+	<!-- properties gallary start -->
+	<section class="properties_gallary_section c_padding">
+		<div class="container">
+			<!-- 1st row -->
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="pg_text">
+						<p class="c_tag">AREAS ACROSS THE TOWN</p>
+						<h1 class="c1_title pgt_title">Neighborhood Properties</h1>
+					</div>
+				</div>
+			</div>
+			<!-- 2nd row -->
+			<div class="row gx-xl-5">
+				<div class="col-lg col-md-6">
+					<div class="pg_img position-relative">
+						<img src="images/pg1.jpg" class="w-100" alt="Rezilla">
+						<div class="api_text position-absolute">
+							<h2 class="c1_title api_title">216</h2>
+							<p class="c_description api_description">New York City, NY</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg col-md-6">
+					<div class="pg_img position-relative">
+						<img src="images/pg2.jpg" class="w-100" alt="Rezilla">
+						<div class="api_text position-absolute">
+							<h2 class="c1_title api_title">141</h2>
+							<p class="c_description api_description">Houston, TX</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-5">
+					<div class="pg_img position-relative">
+						<img src="images/pg3.jpg" class="w-100" alt="Rezilla">
+						<div class="api_text position-absolute">
+							<h2 class="c1_title api_title">212</h2>
+							<p class="c_description api_description">San Diego, CA</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 3rd row -->
+			<div class="row gx-xl-5">
+				<div class="col-lg-5 col-md-6">
+					<div class="pg_img position-relative">
+						<img src="images/pg4.jpg" class="w-100" alt="Rezilla">
+						<div class="api_text position-absolute">
+							<h2 class="c1_title api_title">183</h2>
+							<p class="c_description api_description">Philadelphia, PA</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-7 col-md-6">
+					<div class="pg_img position-relative">
+						<img src="images/pg5.jpg" class="w-100" alt="Rezilla">
+						<div class="api_text position-absolute">
+							<h2 class="c1_title api_title">112</h2>
+							<p class="c_description api_description">San Francisco, CA</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- properties gallary end -->
+	<!-- team member start -->
+	<section class="team_section c_padding">
+		<div class="container">
+			<!-- 1st row -->
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="t_text text-center position-relative">
+						<p class="c_tag">Introduce yourself to </p>
+						<h1 class="c1_title t_title">Our Team of Experts</h1>
+						<span class="t_circul position-absolute d-md-block d-none"></span>
+					</div>
+				</div>
+			</div>
+			<!-- 2nd row -->
+			<div class="row gx-xl-5">
+				<div class="col-lg-3 col-sm-6">
+					<div class="t_member">
+						<div class="tm_img">
+							<img src="images/member1.jpg" class="w-100" alt="Rezilla">
+						</div>
+						<div class="tm_text text-center">
+							<h2 class="c2_title tm_title">Brendon M</h2>
+							<p class="c_description tm_description">CEO & Founder</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="t_member">
+						<div class="tm_img">
+							<img src="images/member2.jpg" class="w-100" alt="Rezilla">
+						</div>
+						<div class="tm_text text-center">
+							<h2 class="c2_title tm_title">Jodi J. Appleby</h2>
+							<p class="c_description tm_description">Real Estate Developer</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="t_member">
+						<div class="tm_img">
+							<img src="images/member3.jpg" class="w-100" alt="Rezilla">
+						</div>
+						<div class="tm_text text-center">
+							<h2 class="c2_title tm_title">Justin S. Meza</h2>
+							<p class="c_description tm_description">Listing Agent</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="t_member">
+						<div class="tm_img">
+							<img src="images/member4.jpg" class="w-100" alt="Rezilla">
+						</div>
+						<div class="tm_text text-center">
+							<h2 class="c2_title tm_title">Susan T. Smith</h2>
+							<p class="c_description tm_description">Buyer's Agent</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- team member end -->
+	<!-- blog & post start -->
+	<section class="blog_section c_padding bg1">
+		<div class="container">
+			<!-- 1st row -->
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="blog_top_text text-center">
+						<p class="c_tag bpt_tag">WHAT’S TRENDING</p>
+						<h1 class="c1_title bpt_title">Latest Blogs & Posts</h1>
+					</div>
+				</div>
+			</div>
+			<!-- 2nd row -->
+			<!-- Medium, Large, Extra Large & Extra extra Large devices blog post show-->
+			<div class="row d-md-block d-none">
+				<div class="col-lg-12">
+					<div id="blog_post_slider" class="carousel slide">
+						<!-- slider indicators -->
+						<div class="carousel-indicators bp_indicators">
+							<button type="button" data-bs-target="#blog_post_slider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+							<button type="button" data-bs-target="#blog_post_slider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+							<button type="button" data-bs-target="#blog_post_slider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+						</div>
+						<!-- slider inner -->
+						<div class="carousel-inner bp_carousel_inner">
+							<!-- slider 1 -->
+							<div class="carousel-item bp_carousel_item active">
+								<div class="row">
+									<!-- item 1 -->
+									<div class="col-lg-4 col-md-4">
+										<div class="bp_item position-relative">
+											<div class="bp_img">
+												<img src="images/blog1.jpg" class="w-100" alt="Rezilla">
+											</div>
+											<div class="bp_text">
+												<h2 class="c2_title bp_title">Top 10 Home Buying Mistakes to Avoid</h2>
+												<p class="c_description bp_description">Etiam eget elementum elit. Aenean dignissim dapibus vestibulum</p>
+											</div>
+											<div class="bp_date text-center position-absolute">
+												<p class="c_description bpd_title">28</p>
+												<p class="c_description bpd_description">tue</p>
+											</div>
+											<div class="bp_link">
+												<a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+											</div>
+										</div>
+									</div>
+									<!-- item 2 -->
+									<div class="col-lg-4 col-md-4">
+										<div class="bp_item position-relative">
+											<div class="bp_img">
+												<img src="images/blog2.jpg" class="w-100" alt="Rezilla">
+											</div>
+											<div class="bp_text">
+												<h2 class="c2_title bp_title">How to Stage Your Home for a Quick Sale</h2>
+												<p class="c_description bp_description">Nullam odio lacus, dictum quis pretium congue, vehicula venenatis nunc.</p>
+											</div>
+											<div class="bp_date text-center position-absolute">
+												<p class="c_description bpd_title">08</p>
+												<p class="c_description bpd_description">mon</p>
+											</div>
+											<div class="bp_link">
+												<a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+											</div>
+										</div>
+									</div>
+									<!-- item 3 -->
+									<div class="col-lg-4 col-md-4">
+										<div class="bp_item position-relative">
+											<div class="bp_img">
+												<img src="images/blog3.jpg" class="w-100" alt="Rezilla">
+											</div>
+											<div class="bp_text">
+												<h2 class="c2_title bp_title">5 Tips for First-Time Home Sellers</h2>
+												<p class="c_description bp_description">In hac habitasse platea dictumst. Phasellus vel velit vel augue maximus.</p>
+											</div>
+											<div class="bp_date text-center position-absolute">
+												<p class="c_description bpd_title">26</p>
+												<p class="c_description bpd_description">wed</p>
+											</div>
+											<div class="bp_link">
+												<a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- slider 2 -->
+							<div class="carousel-item bp_carousel_item">
+								<div class="row">
+									<!-- item 1 -->
+									<div class="col-lg-4 col-md-4">
+										<div class="bp_item position-relative">
+											<div class="bp_img">
+												<img src="images/blog1.jpg" class="w-100" alt="Rezilla">
+											</div>
+											<div class="bp_text">
+												<h2 class="c2_title bp_title">Top 10 Home Buying Mistakes to Avoid</h2>
+												<p class="c_description bp_description">Etiam eget elementum elit. Aenean dignissim dapibus vestibulum</p>
+											</div>
+											<div class="bp_date text-center position-absolute">
+												<p class="c_description bpd_title">28</p>
+												<p class="c_description bpd_description">tue</p>
+											</div>
+											<div class="bp_link">
+												<a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+											</div>
+										</div>
+									</div>
+									<!-- item 2 -->
+									<div class="col-lg-4 col-md-4">
+										<div class="bp_item position-relative">
+											<div class="bp_img">
+												<img src="images/blog2.jpg" class="w-100" alt="Rezilla">
+											</div>
+											<div class="bp_text">
+												<h2 class="c2_title bp_title">How to Stage Your Home for a Quick Sale</h2>
+												<p class="c_description bp_description">Nullam odio lacus, dictum quis pretium congue, vehicula venenatis nunc.</p>
+											</div>
+											<div class="bp_date text-center position-absolute">
+												<p class="c_description bpd_title">08</p>
+												<p class="c_description bpd_description">mon</p>
+											</div>
+											<div class="bp_link">
+												<a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+											</div>
+										</div>
+									</div>
+									<!-- item 3 -->
+									<div class="col-lg-4 col-md-4">
+										<div class="bp_item position-relative">
+											<div class="bp_img">
+												<img src="images/blog3.jpg" class="w-100" alt="Rezilla">
+											</div>
+											<div class="bp_text">
+												<h2 class="c2_title bp_title">5 Tips for First-Time Home Sellers</h2>
+												<p class="c_description bp_description">In hac habitasse platea dictumst. Phasellus vel velit vel augue maximus.</p>
+											</div>
+											<div class="bp_date text-center position-absolute">
+												<p class="c_description bpd_title">26</p>
+												<p class="c_description bpd_description">wed</p>
+											</div>
+											<div class="bp_link">
+												<a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- slider 3 -->
+							<div class="carousel-item bp_carousel_item">
+								<div class="row">
+									<!-- item 1 -->
+									<div class="col-lg-4 col-md-4">
+										<div class="bp_item position-relative">
+											<div class="bp_img">
+												<img src="images/blog1.jpg" class="w-100" alt="Rezilla">
+											</div>
+											<div class="bp_text">
+												<h2 class="c2_title bp_title">Top 10 Home Buying Mistakes to Avoid</h2>
+												<p class="c_description bp_description">Etiam eget elementum elit. Aenean dignissim dapibus vestibulum</p>
+											</div>
+											<div class="bp_date text-center position-absolute">
+												<p class="c_description bpd_title">28</p>
+												<p class="c_description bpd_description">tue</p>
+											</div>
+											<div class="bp_link">
+												<a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+											</div>
+										</div>
+									</div>
+									<!-- item 2 -->
+									<div class="col-lg-4 col-md-4">
+										<div class="bp_item position-relative">
+											<div class="bp_img">
+												<img src="images/blog2.jpg" class="w-100" alt="Rezilla">
+											</div>
+											<div class="bp_text">
+												<h2 class="c2_title bp_title">How to Stage Your Home for a Quick Sale</h2>
+												<p class="c_description bp_description">Nullam odio lacus, dictum quis pretium congue, vehicula venenatis nunc.</p>
+											</div>
+											<div class="bp_date text-center position-absolute">
+												<p class="c_description bpd_title">08</p>
+												<p class="c_description bpd_description">mon</p>
+											</div>
+											<div class="bp_link">
+												<a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+											</div>
+										</div>
+									</div>
+									<!-- item 3 -->
+									<div class="col-lg-4 col-md-4">
+										<div class="bp_item position-relative">
+											<div class="bp_img">
+												<img src="images/blog3.jpg" class="w-100" alt="Rezilla">
+											</div>
+											<div class="bp_text">
+												<h2 class="c2_title bp_title">5 Tips for First-Time Home Sellers</h2>
+												<p class="c_description bp_description">In hac habitasse platea dictumst. Phasellus vel velit vel augue maximus.</p>
+											</div>
+											<div class="bp_date text-center position-absolute">
+												<p class="c_description bpd_title">26</p>
+												<p class="c_description bpd_description">wed</p>
+											</div>
+											<div class="bp_link">
+												<a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 3rd row -->
+			<!-- Small & Extra small devices blog post show-->
+			<div class="row d-md-none d-block">
+				<!-- item 1 -->
+				<div class="col-lg-4 col-md-4">
+					<div class="bp_item position-relative">
+						<div class="bp_img">
+							<img src="images/blog1.jpg" class="w-100" alt="Rezilla">
+						</div>
+						<div class="bp_text">
+							<h2 class="c2_title bp_title">Top 10 Home Buying Mistakes to Avoid</h2>
+							<p class="c_description bp_description">Etiam eget elementum elit. Aenean dignissim dapibus vestibulum</p>
+						</div>
+						<div class="bp_date text-center position-absolute">
+							<p class="c_description bpd_title">28</p>
+							<p class="c_description bpd_description">tue</p>
+						</div>
+						<div class="bp_link">
+							<a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+						</div>
+					</div>
+				</div>
+				<!-- item 2 -->
+				<div class="col-lg-4 col-md-4">
+					<div class="bp_item position-relative">
+						<div class="bp_img">
+							<img src="images/blog2.jpg" class="w-100" alt="Rezilla">
+						</div>
+						<div class="bp_text">
+							<h2 class="c2_title bp_title">How to Stage Your Home for a Quick Sale</h2>
+							<p class="c_description bp_description">Nullam odio lacus, dictum quis pretium congue, vehicula venenatis nunc.</p>
+						</div>
+						<div class="bp_date text-center position-absolute">
+							<p class="c_description bpd_title">08</p>
+							<p class="c_description bpd_description">mon</p>
+						</div>
+						<div class="bp_link">
+							<a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+						</div>
+					</div>
+				</div>
+				<!-- item 3 -->
+				<div class="col-lg-4 col-md-4">
+					<div class="bp_item position-relative">
+						<div class="bp_img">
+							<img src="images/blog3.jpg" class="w-100" alt="Rezilla">
+						</div>
+						<div class="bp_text">
+							<h2 class="c2_title bp_title">5 Tips for First-Time Home Sellers</h2>
+							<p class="c_description bp_description">In hac habitasse platea dictumst. Phasellus vel velit vel augue maximus.</p>
+						</div>
+						<div class="bp_date text-center position-absolute">
+							<p class="c_description bpd_title">26</p>
+							<p class="c_description bpd_description">wed</p>
+						</div>
+						<div class="bp_link">
+							<a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-12">
+					<div class="b_more">
+						<a href="#">View more blogs</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- blog & post end -->
+	<!-- testimonials start -->
+	<section class="testimonial_section c_padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-4 col-md-6">
+					<div class="tst_left">
+						<p class="c_tag">TESTIMONIALS</p>
+						<h1 class="c1_title tst_title">Look What Our Customers Say!</h1>
+						<p class="c_description tst_description">Fusce venenatis tellus a felis scelerisque, non pulvinar est pellentesque.</p>
+						<!-- testimonial slider button -->
+						<div class="tst_slider_button d-md-block d-none">
+							<button class="tsts_button_prev tsts_button" type="button" data-bs-target="#testimonials_slider_indicators" data-bs-slide="prev">
+								<i class="fa-solid fa-arrow-left"></i>
+							</button>
+							<button class="tsts_button_next tsts_button" type="button" data-bs-target="#testimonials_slider_indicators" data-bs-slide="next">
+								<i class="fa-solid fa-arrow-right"></i>
+							</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-5 offset-xl-3 col-md-6">
+					<div class="tst_right">
+						<!-- testimonial slider -->
+						<div id="testimonials_slider_indicators" class="carousel slide">
+							<!-- carousel indicators -->
+							<div class="carousel-indicators tst_carousel_indicators">
+								<button type="button" data-bs-target="#testimonials_slider_indicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+								<button type="button" data-bs-target="#testimonials_slider_indicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+								<button type="button" data-bs-target="#testimonials_slider_indicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+							</div>
+							<!-- carousel inner -->
+							<div class="carousel-inner tst_carousel_inner">
+								<!-- carousel item -->
+							    <div class="carousel-item tst_carousel_item active">
+							    	<div class="tst_review">
+							    		<div class="tstr_text">
+							    			<div class="tstr_img1">
+							    				<img src="images/icon.png" class="w-100" alt="Rezilla">
+							    			</div>
+							    			<p class="c_description tstr_description">I highly recommend Jodi J. Appleby. She was attentive to our needs and worked tirelessly to find us the perfect home. We couldn't be happier with our new place!</p>
+							    		</div>
+							    		<div class="tstr_info d-flex justify-content-between align-items-center">
+							    			<div class="tstr_img">
+							    				<img src="images/member5.jpg" class="w-100" alt="Rezilla">
+							    			</div>
+							    			<div class="tstr_icon">
+							    				<i class="fa-solid fa-star"></i>
+							    				<i class="fa-solid fa-star"></i>
+							    				<i class="fa-solid fa-star"></i>
+							    				<i class="fa-solid fa-star"></i>
+							    				<i class="fa-solid fa-star"></i>
+							    			</div>
+							    		</div>
+							    	</div>
+							    </div>
+								<!-- carousel item -->
+							    <div class="carousel-item">
+							    	<div class="tst_review">
+							    		<div class="tstr_text">
+							    			<div class="tstr_img1">
+							    				<img src="images/icon.png" class="w-100" alt="Rezilla">
+							    			</div>
+							    			<p class="c_description tstr_description">I highly recommend Jodi J. Appleby. She was attentive to our needs and worked tirelessly to find us the perfect home. We couldn't be happier with our new place!</p>
+							    		</div>
+							    		<div class="tstr_info d-flex justify-content-between align-items-center">
+							    			<div class="tstr_img">
+							    				<img src="images/member5.jpg" class="w-100" alt="Rezilla">
+							    			</div>
+							    			<div class="tstr_icon">
+							    				<i class="fa-solid fa-star"></i>
+							    				<i class="fa-solid fa-star"></i>
+							    				<i class="fa-solid fa-star"></i>
+							    				<i class="fa-solid fa-star"></i>
+							    				<i class="fa-solid fa-star"></i>
+							    			</div>
+							    		</div>
+							    	</div>
+							    </div>
+								<!-- carousel item -->
+							    <div class="carousel-item">
+							    	<div class="tst_review">
+							    		<div class="tstr_text">
+							    			<div class="tstr_img1">
+							    				<img src="images/icon.png" class="w-100" alt="Rezilla">
+							    			</div>
+							    			<p class="c_description tstr_description">I highly recommend Jodi J. Appleby. She was attentive to our needs and worked tirelessly to find us the perfect home. We couldn't be happier with our new place!</p>
+							    		</div>
+							    		<div class="tstr_info d-flex justify-content-between align-items-center">
+							    			<div class="tstr_img">
+							    				<img src="images/member5.jpg" class="w-100" alt="Rezilla">
+							    			</div>
+							    			<div class="tstr_icon">
+							    				<i class="fa-solid fa-star"></i>
+							    				<i class="fa-solid fa-star"></i>
+							    				<i class="fa-solid fa-star"></i>
+							    				<i class="fa-solid fa-star"></i>
+							    				<i class="fa-solid fa-star"></i>
+							    			</div>
+							    		</div>
+							    	</div>
+							    </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- testimonials end -->
+	<!-- newsletter start -->
+	<section class="newsletter_section c_padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg12">
+					<div class="newsletter bg1">
+						<div class="row align-items-center gx-lg-5">
+							<div class="col-xl-4 col-lg-4 col-md-4 order-md-1 order-3">
+								<div class="n_img">
+									<img src="images/member6.png" class="w-100" alt="Rezilla">
+									<span class="n_img_circul"></span>
+								</div>
+							</div>
+							<div class="col-xl-4 col-lg-5 col-md-5 order-md-2 order-1">
+								<div class="n_text">
+									<h1 class="c1_title n_title">Become a Agent.</h1>
+									<p class="c_description n_description">Fusce venenatis tellus a felis scelerisque. venenatis tellus a felis scelerisque.</p>
+								</div>
+							</div>
+							<div class="col-xl-4 col-lg-3 col-md-3 order-md-3 order-2">
+								<div class="n_button">
+									<button type="button" class="n_reg_button" data-bs-target="#register_form" data-bs-toggle="modal">register now</button>
+								</div>
+								<span class="n_circul_1"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- newsletter end -->
+	<!-- footer top start -->
+	<section class="footer_top_section c_padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-3 col-lg col-sm-5">
+					<div class="ft">
+						<div class="ft_logo">
+							<a href="#">
+								<img src="images/footer-logo.png" alt="Rezilla">
+							</a>
+						</div>
+						<p class="c_description ft_location">2728 Hickory StreetSalt Lake City, UT 84104</p>
+						<p class="c_description ft_phn">
+							<a href="#"><i class="fa-solid fa-phone-flip"></i></a>
+							<span>01750527181</span>
+						</p>
+						<p class="c_description ft_mail">
+							<a href="#"><i class="fa-regular fa-envelope"></i></a>
+							<span>01750527181</span>
+						</p>
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg col-sm">
+					<div class="ft">
+						<h2 class="c2_title ft_title">Quick Links</h2>
+						<ul class="list-inline mb-0">
+							<li><a href="#">home</a></li>
+							<li><a href="#">about</a></li>
+							<li><a href="#">listings</a></li>
+							<li><a href="#">services</a></li>
+							<li><a href="#">blogs</a></li>
+							<li><a href="#">become a agent</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg col-sm">
+					<div class="ft">
+						<h2 class="c2_title ft_title">Quick Links</h2>
+						<ul class="list-inline mb-0">
+							<li><a href="#">canada</a></li>
+							<li><a href="#">united states</a></li>
+							<li><a href="#">germany</a></li>
+							<li><a href="#">africa</a></li>
+							<li><a href="#">india</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg-4 col-md-12">
+					<div class="ft ft_newsletter">
+						<h2 class="c2_title ft_title">Subscribe to our Newsletter!</h2>
+						<form class="row needs-validation ft_form position-relative" novalidate>
+							<div class="col-lg-12">
+								<input type="email" class="form-control ft_input" id="email" autocomplete="off" placeholder="Enter Your Email Address" required>
+								<button class="btn" type="submit">
+									<i class="fa-solid fa-arrow-right"></i>
+								</button>
+							</div>
+						</form>
+						<div class="ft_social">
+							<h2 class="c2_title">Follow Us on</h2>
+							<ul class="list-inline mb-0">
+								<li class="list-inline-item"><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+								<li class="list-inline-item"><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+								<li class="list-inline-item"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- footer top end -->
+	<!-- footert start -->
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="f_left">
+						<p class="c_description">&copy; Rezilla – All rights reserved</p>
+					</div>
+				</div>
+				<div class="col-md-8">
+					<div class="f_right text-end">
+						<ul class="list-inline mb-0">
+							<li class="list-inline-item"><a class="text-decoration-none" href="#">Terms and Conditions</a></li>
+							<li class="list-inline-item"><a class="text-decoration-none" href="#">Privacy Policy</a></li>
+							<li class="list-inline-item"><a class="text-decoration-none" href="#">Disclaimer</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- footert end -->
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
